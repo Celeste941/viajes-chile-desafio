@@ -1,10 +1,14 @@
+### Se crea, agrega cambios y se sube el repositorio usando los comandos:
+<ol>
+<li>git init.</li>
+<li>git add</li>
+<li>git commit -m</li>
+<li>git push.</li>
+</ol>
 
-
-## Se crea y se sube el respectivo repositorio usando los comando git init, git add ., git commit -m y el respectivo git push
-
-## Se incorporan los respectivos links para preparar el entorno de trabajo: 
-### 1- Link de boostrap y el javascript de boostrap.
-### 2- Link de carpetas de stylos.
-### 3- link de font awesome
-### 4- link de jquery para trabajos relacionados con js.
-### 5- Se uso Fontawesome para los iconos
+### Paginas utilizadas para implementar iconos, tipo de letra y estilos para el proyecto
+<ol>
+<li>Font Awesome para los iconos</li>
+<li>Google Fonts para el tipo de letra -Raleway-</li>
+<li>Boostrap para usar los componentes y sus estilos</li>
+</ol>

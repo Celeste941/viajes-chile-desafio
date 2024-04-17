@@ -36,28 +36,70 @@
     <!-- JAVASCRIPT EXTERNO -->
     <script defer src="./assets/javascript/index.js"></script>
   </head>
+
   <body>
     <header>
-      <div>
-        <nav class="navbar bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img
-                src="./assets/img/viajes.svg"
-                alt="Logo"
-                width="30"
-                height="24"
-                class="d-inline-block align-text-top" />
-              Viajes Chile
-            </a>
+      <!-- INICIO DEL MENU DE NAVEGACIÓN -->
+      <nav class="navbar fixed-top container justify-content-around" id="mi-navbar">
+        <div class="container-fluid">
+          <a class="" href="#">
+            <img
+              src="./assets/img/viajes.svg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top" />
+            Viajes Chile
+          </a>
+          <!-- MENU DE NAVEGACIÓN VISIBLE SOLO EN PANTALLA MD EN ADELANTE -->
+          <div class="menu-nav-links d-none d-md-flex">
+            <a href="" id="inicio">Inicio</a>
+            <a href="" id="quienes-somos">Quienes somos</a>
+            <a href="" id="destacados">Destacados</a>
+            <a href="" id="contacto">Contactos</a>
+            <!-- FIN MENU DE NAVEGACIÓN VISIBLE SOLO EN PANTALLA MD EN ADELANTE -->
           </div>
-        </nav>
-      </div>
 
-      <div>
+          <!-- MENU DE NAVEGACIÓN VISIBLE EN PANTALLA SM PARA ABAJO -->
+          <div class="d-block d-md-none text-white">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header"></div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">Quienes somos</a>
+                  </li>
 
-      </div>
-      
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">Destacados</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- FIN DEL MENU DE NAVEGACIÓN VISIBLE EN PANTALLA SM PARA ABAJO -->
+        </div>
+      </nav>
+      <!-- FIN DEL MENU DE NAVEGACIÓN -->
     </header>
   </body>
 </html>

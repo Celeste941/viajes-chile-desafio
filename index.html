@@ -40,7 +40,9 @@
   <body>
     <header>
       <!-- INICIO DEL MENU DE NAVEGACIÓN -->
-      <nav class="navbar fixed-top container justify-content-around" id="mi-navbar">
+      <nav
+        class="navbar fixed-top container justify-content-around navbar-dark"
+        id="mi-navbar">
         <div class="container-fluid">
           <a class="" href="#">
             <img
@@ -100,6 +102,101 @@
         </div>
       </nav>
       <!-- FIN DEL MENU DE NAVEGACIÓN -->
+
+      <!-- SECCIÓN DE CAROUSEL -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/card1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- FIN DEL CAROUSEL -->
     </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- SECCIÓN DE -QUIENES SOMOS- -->
+      <section class="container text-white">
+        <div class="row">
+          <h1 class="text-center my-5">¿Quienes somos?</h1>
+          <div class="col-sm-4">
+            <!-- CONTENEDOR PARA CENTRAR ÍCONO AIRPLANE" -->
+            <div
+              class="d-flex justify-content-center custom-icon d-none d-sm-block text-center my-2">
+              <!-- ÍCONO AIRPLANE -->
+              <i class="fas fa-plane"></i>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, blanditiis! Ullam eos, quas nulla reprehenderit
+              facere mollitia, ratione recusandae similique ea, eaque quae error
+              quaerat ipsam quia consectetur labore reiciendis.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Assumenda sunt iusto, at et in nemo, eius recusandae autem
+              temporibus molestiae saepe! Molestiae officiis officia architecto.
+              Facilis deserunt fugiat cupiditate magnam!
+            </p>
+
+            <!-- CONTENEDOR PARA CENTRAR ÍCONO "MOUNTAIN" -->
+            <div
+              class="d-flex justify-content-center custom-icon d-none d-sm-block text-center my-2">
+              <!-- ÍCONO MOUNTAIN -->
+              <i class="fa fa-mountain"></i>
+            </div>
+          </div>
+          <div class="col-sm-4 my-2">
+            <!-- CONTENEDOR PARA CENTRAR ÍCONO ROUTER -->
+            <div
+              class="d-flex justify-content-center text-center custom-icon d-none d-sm-block my-2">
+              <!-- ICONO ROUTER -->
+              <i class="fas fa-route"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad totam
+              aliquam temporibus quasi deleniti obcaecati dicta explicabo iure
+              soluta, porro, rem pariatur sit est distinctio. Illo ipsam itaque
+              dignissimos cum.gergsd
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- FIN DE LA SECCIÓN -QUIENES SOMOS- -->
+    </main>
+
+    
   </body>
 </html>

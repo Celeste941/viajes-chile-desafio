@@ -17,7 +17,6 @@ header {
   margin: 5px;
 }
 
-
 .custom-icon {
   background-color: #2b9daa;
   padding: 0.5rem;
@@ -27,34 +26,64 @@ h1 {
   font-size: 1.5rem;
 }
 
-form{
+/* REVISAR BIEN ESTOS ESTILOS */
+.custom-h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+  }
+  /* esto si que me costo, tuve que dar estilos personalizados para pisar los estilos de boostrap porque habia una imagen que quedaba mas gramde y no se porque */
+  .card-img-top {
+    height: 13rem; /* Establece la altura deseada para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para llenar el espacio manteniendo la proporción */
+  }
+  .card-title {
+    text-transform: uppercase;
+    color: #ffff;
+  }
+  
+  .card-text {
+    color: #ffff;
+  }
+  
+  .custom-card {
+    margin-bottom: 1rem;
+  }
+
+
+
+
+/* FIN DE REVISAR BIEN ESTOS ESTILOS */
+
+form {
+  color: white;
+  & h2 {
+    text-align: center;
+  }
+}
+
+.color-button-enviar {
+  background-color: #2b9daa;
+  color: white;
+}
+
+.input-tamaño-mensaje {
+  height: 150px;
+}
+
+footer {
+  background-color: #2b9daa;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  & h3 {
     color: white;
-    & h2{
-        text-align: center;
-    }
-}
-
-.color-button-enviar{
-    background-color: #2b9daa;
-    color: white;
-}
-
-.input-tamaño-mensaje{
-    height: 150px;
-}
-
-footer{
-    background-color: #2b9daa;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    & h3{
-        color: white;
-        font-weight: 200;
-        text-transform: uppercase;
-    }
-    & .iconos-footer i{
-        margin: 10px;
-    }
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  & .iconos-footer i {
+    margin: 15px 15px;
+  }
 }

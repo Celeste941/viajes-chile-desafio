@@ -63,7 +63,7 @@
           </div>
 
           <!-- MENU DE NAVEGACIÓN VISIBLE EN PANTALLA SM PARA ABAJO -->
-          <div class="d-block d-md-none text-white">
+          <div class="d-block d-md-none">
             <button
               class="navbar-toggler"
               type="button"
@@ -79,7 +79,7 @@
               id="offcanvasNavbar"
               aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header"></div>
-              <div class="offcanvas-body">
+              <div class="offcanvas-body bg-info">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
                     <a class="nav-link" href="#">Inicio</a>
@@ -197,6 +197,48 @@
       <!-- FIN DE LA SECCIÓN -QUIENES SOMOS- -->
     </main>
 
-    
+    <!-- SECCIÓN INICIAL DEL INPUT -->
+    <form class="container my-5">
+      <h2>Contacto</h2>
+      <hr />
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Apellido</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+        <input
+          type="password"
+          class="form-control input-tamaño-mensaje"
+          id="exampleInputPassword1" />
+      </div>
+      <button type="submit" class="btn color-button-enviar">Enviar</button>
+    </form>
+    <!-- FINAL DEL INPUT -->
+
+    <footer>
+      <div><h3>Viajes Chile</h3></div>
+      <div class="iconos-footer">
+        <i class="fa-brands fa-square-github fa-2xl" style="color: #ffffff"></i>
+        <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff"></i>
+        <i
+          class="fa-brands fa-square-twitter fa-2xl"
+          style="color: #ffffff"></i>
+        <i
+          class="fa-brands fa-square-facebook fa-2xl"
+          style="color: #ffffff"></i>
+      </div>
+    </footer>
   </body>
 </html>

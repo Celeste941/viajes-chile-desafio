@@ -12,6 +12,7 @@ header {
   & a {
     text-decoration: none;
     color: #ffff;
+    font-weight: 200;
   }
 }
 
@@ -56,10 +57,12 @@ h1 {
 .card-title {
   text-transform: uppercase;
   color: #ffff;
+  font-weight: 200;
 }
 
 .card-text {
   color: #ffff;
+  font-weight: 200;
 }
 
 .custom-card {
